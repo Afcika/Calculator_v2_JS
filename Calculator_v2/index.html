@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  
+
+    <div id="calculator">
+      <input type="text" name="" id="display" readonly>
+      <div id="keys"> 
+        <button onclick="mathfunction('+')" class="operator">+</button>
+        <button onclick="mathfunction('7')">7</button>
+        <button onclick="mathfunction('8')">8</button>
+        <button onclick="mathfunction('9')">9</button>
+        <button onclick="mathfunction('-')" class="operator">-</button>
+        <button onclick="mathfunction('4')">4</button>
+        <button onclick="mathfunction('5')">5</button>
+        <button onclick="mathfunction('6')">6</button>
+        <button onclick="mathfunction('*')" class="operator">*</button>
+        <button onclick="mathfunction('1')">1</button>
+        <button onclick="mathfunction('2')">2</button>
+        <button onclick="mathfunction('3')">3</button>
+        <button onclick="mathfunction('/')" class="operator">/</button>
+        <button onclick="mathfunction('0')">0</button>
+        <button onclick="mathfunction('.')">.</button>
+
+        <button onclick="calculate()">=</button>
+        <button onclick="Clear()" class="operator">C</button>
+
+      </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
